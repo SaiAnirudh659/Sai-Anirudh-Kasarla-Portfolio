@@ -1,0 +1,157 @@
+/* Mobile Responsive Navbar & Layout */
+@media (max-width: 768px) {
+    .navbar {
+        height: 70px;
+        padding: 0 12px;
+    }
+
+    .nav-container {
+        padding: 0 12px;
+        gap: 12px;
+    }
+
+    .nav-left {
+        font-size: 18px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .nav-center {
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+
+    .nav-center a {
+        font-size: 14px;
+    }
+
+    .resume-btn {
+        padding: 8px 16px;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+
+    /* Home Page Mobile */
+    .home {
+        padding: 60px 20px 100px;
+    }
+
+    .hero-card {
+        padding: 40px 30px;
+        margin: 0 auto 60px;
+    }
+
+    .hero-card h1 {
+        font-size: 42px !important;
+    }
+
+    .hero-subtitle {
+        font-size: 20px !important;
+    }
+
+    .hero-description {
+        font-size: 15px !important;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .cta-button {
+        width: 100%;
+    }
+
+    /* Stats Section Mobile */
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 20px;
+    }
+
+    /* About Page Mobile */
+    .about-content-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Skills Page Mobile */
+    .skills-category-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    /* Projects Mobile */
+    .featured-grid,
+    .project-row {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        height: 60px;
+    }
+
+    .nav-container {
+        padding: 0 10px;
+    }
+
+    .nav-left {
+        font-size: 16px;
+    }
+
+    .nav-center {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .nav-center a {
+        font-size: 13px;
+        padding: 4px 0;
+    }
+
+    .resume-btn {
+        padding: 6px 12px;
+        font-size: 11px;
+    }
+
+    /* Home Page */
+    .hero-card {
+        padding: 30px 20px;
+        margin: 0 auto 40px;
+    }
+
+    .hero-card h1 {
+        font-size: 36px !important;
+    }
+
+    .hero-subtitle {
+        font-size: 18px !important;
+    }
+
+    .hero-description {
+        font-size: 14px !important;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr !important;
+        gap: 16px;
+    }
+
+    .stat-card {
+        padding: 20px !important;
+    }
+
+    /* Contact Mobile */
+    .contact-hero .hero-content h1 {
+        font-size: 42px !important;
+    }
+
+    .contact-right,
+    .contact-left {
+        width: 100%;
+    }
+}
